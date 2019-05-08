@@ -1,7 +1,7 @@
 // background.js
 
 // Called when the user clicks on the browser action.
-chrome.browserAction.onClicked.addListener(function(tab) {
+/*chrome.browserAction.onClicked.addListener(function(tab) {
 
     var hrefs = ["https://www.google.com/", "https://www.facebook.com", "https://www.youtube.com/", "https://www.gmail.com"];
   
@@ -14,4 +14,4 @@ chrome.browserAction.onClicked.addListener(function(tab) {
             chrome.tabs.create({"url": hrefs[i]});
           }
         }
-  });
+  });*/
